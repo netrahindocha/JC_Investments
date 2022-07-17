@@ -1,3 +1,5 @@
+/* hsl(189.64285714285714, 24%, 80%) */
+
 *{
     margin: 0;
     padding: 0;
@@ -32,6 +34,10 @@ html{
     cursor: pointer;
 }
 
+#jc-investments a:hover{
+    color: hsl(189.64285714285714, 24%, 80%);
+}
+
 .navbox ul{
     display: flex;
     padding: 12px 15px;  
@@ -45,13 +51,15 @@ html{
 .navbox ul li a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
     padding: 16px 20px;
     font-size: 20px;
 }
 
 .navbox ul li a:hover{
-    color: black;
     background-color: white;
+    color: black;
+    font-weight: normal;
 }
 
 .company-section{
@@ -60,14 +68,16 @@ html{
     justify-content: center;
     flex-direction: column;
     padding-bottom: 100px;
-    color: white;
-    background-color: black;
+    /* color: white; */
+    color: black;
+    /* background-color: black; */
+    background-color: hsl(189.64285714285714, 24%, 80%);
 }
 
 #homepage{
-    padding-top: 80px;
+    padding-top: 60px;
     padding-left: 110px;
-    background-color: black;
+    background-color: hsl(189.64285714285714, 24%, 80%);
 }
 
 h1{
@@ -85,7 +95,7 @@ h1{
 }
 
 .mail-list input[type='email']{
-    border-color: white;
+    border: 2px solid black;
     width: 100%;
     padding: 0.1rem;
     padding-left: 15px;
@@ -150,16 +160,16 @@ p{
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    background-color: hsl(189.64285714285714, 24%, 80%);
+    color: black;
     /* font-weight: bold; */
 }
 
 #get-in-touch:hover{
     cursor: pointer;
     color: black;
-    font-weight: bold;
-    background-color: rgb(233, 233, 233);
+    /* font-weight: bold; */
+    background-color: white;
     /* font-weight: bold; */
 }
 
@@ -183,7 +193,7 @@ p{
 
 .our-values-section{
     display: flex;
-    background-color: rgb(233, 233, 233);
+    background-color: hsl(189.64285714285714, 24%, 80%);
     padding: 50px;
     margin-top: 50px;
     border-top-left-radius: 150px;
@@ -293,7 +303,7 @@ p{
 
 .contact-section{
     /* padding: 20px; */
-    background-color: rgb(233, 233, 233);
+    background-color: hsl(189.64285714285714, 24%, 80%);
 }
 
 .contact-form{
@@ -383,7 +393,7 @@ textarea{
 /* Portfolio Section */
 
 .portfolio-section{
-    background-color: rgb(233, 233, 233);
+    background-color: hsl(189.64285714285714, 24%, 80%);
 }
 
 .portfolio-title{
@@ -437,7 +447,7 @@ textarea{
 /* Reviews Section */
 
 .reviews-section{
-    background-color: rgb(233, 233, 233);
+    background-color: hsl(189.64285714285714, 24%, 80%);
 }
 
 .reviews-title{
@@ -520,8 +530,8 @@ textarea{
     padding: 20px;
     padding-left: 150px;
     padding-right: 150px;
-    background-color: black;
-    color: white;
+    background-color: hsl(189.64285714285714, 24%, 80%);
+    color: black;
     border: 2px solid black;
 }
 
