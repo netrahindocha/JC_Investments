@@ -35,7 +35,7 @@ html{
 }
 
 #jc-investments a:hover{
-    color: hsl(189.64285714285714, 24%, 80%);
+    color: #c0d4d8;
 }
 
 .navbox ul{
@@ -71,13 +71,13 @@ html{
     /* color: white; */
     color: black;
     /* background-color: black; */
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
 }
 
 #homepage{
     padding-top: 60px;
     padding-left: 110px;
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
 }
 
 h1{
@@ -160,7 +160,7 @@ p{
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
     color: black;
     /* font-weight: bold; */
 }
@@ -193,7 +193,7 @@ p{
 
 .our-values-section{
     display: flex;
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
     padding: 50px;
     margin-top: 50px;
     border-top-left-radius: 150px;
@@ -303,7 +303,7 @@ p{
 
 .contact-section{
     /* padding: 20px; */
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
 }
 
 .contact-form{
@@ -393,7 +393,7 @@ textarea{
 /* Portfolio Section */
 
 .portfolio-section{
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
 }
 
 .portfolio-title{
@@ -447,7 +447,7 @@ textarea{
 /* Reviews Section */
 
 .reviews-section{
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
 }
 
 .reviews-title{
@@ -530,7 +530,7 @@ textarea{
     padding: 20px;
     padding-left: 150px;
     padding-right: 150px;
-    background-color: hsl(189.64285714285714, 24%, 80%);
+    background-color: #c0d4d8;
     color: black;
     border: 2px solid black;
 }
