@@ -80,6 +80,13 @@ html{
     background-color: rgb(192, 212, 216);
 }
 
+#logo{
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 2px;
+    transform: scale(1.2);
+}
+
 h1{
     font-size: 90px;
 }
